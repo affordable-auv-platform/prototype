@@ -1,0 +1,11 @@
+name "remote_control"
+
+using_library "udp_communication"
+using_library "controldev"
+
+import_types_from "controldev"
+
+task_context "RemoteControlTask" do
+    input_port "joy", "controldev/RawCommand"
+    periodic 0.2
+end

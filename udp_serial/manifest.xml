@@ -1,0 +1,20 @@
+<package>
+  <description brief="to receive udp data and send via serial to arduino ">
+  to receive udp data and send via serial to arduino
+  </description>
+  <author>geovane/geovanemimoso@gmail.com</author>
+  <license></license>
+  <url>http://</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <!--
+   To add any dependencies use the depend tag
+  <depend package="dummy-dependency-0" />
+	...
+  <depend package="dummy-dependency-n-1" />
+  <depend package="dummy-dependency-n" />
+  -->
+  <depend package="prototipo/udp_communication"/>
+  <depend package="drivers/orogen/controldev"/>
+  <depend package="prototipo/my_serial"/>
+</package>

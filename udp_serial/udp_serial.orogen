@@ -1,0 +1,8 @@
+name "udp_serial"
+
+using_library "udp_communication"
+using_library "my_serial"
+
+task_context "UdpSerialTask" do
+    periodic 0.2
+end

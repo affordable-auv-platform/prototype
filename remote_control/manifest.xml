@@ -1,0 +1,12 @@
+<package>
+  <description brief="teste">
+  teste
+  </description>
+  <author>teste/teste</author>
+  <license></license>
+  <url>http://teste</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <depend package="drivers/orogen/controldev" />
+  <depend package="prototipo/udp_communication" />
+</package>

@@ -1,0 +1,12 @@
+<package>
+  <description brief="communication between two machines ">
+  This lib provide a way to comunicate two machine using udp socket in linux
+  </description>
+  <author>Geovane Mimoso /geovanemimoso@gmail.com</author>
+  <license></license>
+  <url>http://</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <depend package="base/types" />
+  <depend package="drivers/controldev"/>
+</package>
